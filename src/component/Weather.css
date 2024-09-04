@@ -1,0 +1,185 @@
+@media  (min-width:1100px){
+.weather{
+ font-family: "Poppins", sans-serif;
+  display: grid;
+  grid-template-columns: 35% 65%;
+  height: 100vh;
+}
+.search{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.search-bar{
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+ 
+  padding: 5px;
+  border-radius: 20px;
+  background-color: #eef1f1;
+}
+.search-bar input{
+   border: none; 
+  outline: none;
+  margin-left: 8px;
+  height: 35px;
+  width: 380px;
+ font-size: 20px;
+ background-color:#eef1f1 ;
+
+}
+.search-bar img{
+ 
+  width: 32px;
+  cursor: pointer;
+}
+.weather-img {
+ width: 220px;
+ 
+}
+.search .temperature{
+  font-size:60px;
+  font: bold;
+}
+.search .weather-detail{
+  font-size: 30px;
+}
+.search .location{
+  margin-top: 3rem;
+  font-size: 20px;
+}
+ 
+.daywise-details{
+  display: flex;
+  flex-direction: column;
+  background-color: #ededf5;
+  padding: 2rem;
+}
+
+.today-details{
+margin-top:2rem ;
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ grid-template-rows: repeat(3, 1fr);
+  gap: 2rem;
+
+}
+.wind,.humidity,.real-feal,.uv-index,.pressure,.cloud
+,.dew-point,.heat-index,.wind-chill{
+  background-color:  #6f8ae2 ;
+ width: 250px;
+ height: 150px;
+ padding: 1rem  ;
+ border-radius: 20px;
+ 
+}
+
+.days {
+  font-size: 30px;
+  color: #868687;
+  margin-top: 1rem;
+}
+.today-details .title{
+  font-size: 18px;
+  color: #eaeafc;
+}
+.today-details .content{
+  font-size: 25px;
+  color: white;
+  padding-bottom: 5px;
+}
+
+}
+ 
+@media(max-width:1100px){
+.weather{
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.search{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.search-bar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+  padding: 0 1rem;
+ 
+  border-radius: 20px;
+  background-color: #eef1f1;
+
+}
+.search-bar input{
+  width: 280px;
+  height: 40px;
+  padding: 5px;
+  background-color: #eef1f1;
+  border: none;
+  outline: none;
+  font-size: 20px;
+}
+.search-bar img{
+  width: 30px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.search .temperature{
+  font-size:40px;
+  font: bold;
+}
+.search .weather-detail{
+  font-size: 20px;
+}
+.search .temperature{
+  font-size:40px;
+  font: bold;
+}
+.search .location{
+  margin-top: 2rem;
+  font-size: 20px;
+}
+
+.weather-img {
+  width: 180px;
+ }
+ 
+.today-details{
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+
+
+}
+.wind,.humidity,.real-feal,.uv-index,.pressure,.cloud
+,.dew-point,.heat-index,.wind-chill{
+  background-color:  #6f8ae2 ;
+ width: 150px;
+ height: 120px;
+ padding: 1rem  ;
+ border-radius: 20px;
+}
+.today-details .title{
+  font-size: 18px;
+  color: #eaeafc;
+}
+.today-details .content{
+  font-size: 25px;
+  color: white;
+  padding-bottom: 5px;
+}
+
+
+
+}
