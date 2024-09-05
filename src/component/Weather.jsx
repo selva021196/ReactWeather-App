@@ -38,7 +38,7 @@ const Weather = () => {
     try {
       
 
-    const url =`http://api.weatherapi.com/v1/forecast.json?key=fab11d7bd0d349f486b135424240209&q=${city}&days=1&aqi=yes&alerts=no`;
+    const url =`https://api.weatherapi.com/v1/forecast.json?key=fab11d7bd0d349f486b135424240209&q=${city}&days=1&aqi=yes&alerts=no`;
 
       const response = await fetch(url);
       const data = await response.json();
